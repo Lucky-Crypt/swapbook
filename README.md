@@ -2,6 +2,11 @@
 
 A lightweight Peer-to-Peer Token Swap Orderbook application deployed on the Stellar Testnet. It enables any user to trustlessly propose a swap of two tokens. Once posted, the tokens wait in the smart contract until another individual comes along and fills the order, guaranteeing atomic settlement for both users. It solves the issue of middleman trust and off-chain order matching by bringing order logic directly on-chain using Soroban.
 
+## Deployed Contract Information
+
+- **Contract ID**: `CCZFJA5FM2A55CBMV6LVVRQPB5VRYOXPXBCZMJCOFLC46SQAZEG2VH4W`
+- **Explorer Link**: [Stellar.expert Testnet Contract](https://stellar.expert/explorer/testnet/contract/CCZFJA5FM2A55CBMV6LVVRQPB5VRYOXPXBCZMJCOFLC46SQAZEG2VH4W)
+
 ## Tech Stack
 - Rust / Soroban (Smart Contract logic)
 - Next.js 14 App Router (Frontend)
